@@ -1,0 +1,17 @@
+{
+  "name": "ebay-to-wallapop",
+  "version": "1.0.0",
+  "description": "Script para scrapeo de productos de eBay y subida a Wallapop.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "scrape": "node scripts/scrapeEbay.js",
+    "upload": "node scripts/uploadWallapop.js"
+  },
+  "dependencies": {
+    "puppeteer": "^20.0.0",
+    "fs-extra": "^11.0.0"
+  },
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
